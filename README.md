@@ -21,12 +21,13 @@
 ✅ Using **Context Managers (`with open()`)** for safer I/O  
 
 ---
+```bash
 📦 Python-File-IO
  ┣ 📜 main.py      # All functions Explain Here
  ┣ 📜 mod.py     # Modes of Opening File
  ┣ 📜 with.py    #Context Managers (`with open()`)** for safer I/O 
  ┗ 📜 README.md         # You are here! 😎
-
+```
 ---
 
 ## ⚡ Installation & Usage  
