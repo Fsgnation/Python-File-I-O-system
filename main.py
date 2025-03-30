@@ -13,41 +13,43 @@ x=open("emails.txt","w") # here mode is w for writing in a file/ in my pc emials
 x.write(emails)
 x.close()
 
-# using this we can print all lines in the form of a list
+# Readlines fn -using this we can print all lines in the form of a list
 
 b=open("poem.txt")
 line=b.readlines()
 print(b,type(b))
 
-f=open("file.txt")
 
-line1=f.readline() # we can name var of your wish it isnt neccesary to give line1 the no of funvtion is called that number of list repeateed 
+# Readline fn -using this we can print all lines in the form of a list
+
+line1=b.readline() # we can name var of your wish it isnt neccesary to give line1, the no of time function is called ,number of thaat line will print from  poem.txt
 print(line1,type(line1))
 
-line2=f.readline()
+line2=b.readline()
 print(line2,type(line2))
 
-line3=f.readline()
+line3=b.readline()
 print(line3,type(line3))
 
-line4=f.readline()
+line4=b.readline()
 print(line4,type(line4))
 
-line5=f.readline()
+line5=b.readline()
 print(line5,type(line5))
 
-line6=f.readline()
-print(line6,type(line6)) # our txt doesnt contain 6th line but it will not raise a errror instead of that it will give nad empty string 
+line6=b.readline()
+print(line6,type(line6)) # our txt doesnt contain 6th line but it will not raise a errror instead of that it will give a empty string 
 
 print(line6=="")#this will give True
 
-f.close()
+b.close()
 
 # doing same thing by loop
 
-f=open("file.txt")
-line=f.readline()
+c=open("file.txt")
+line=c.readline()
 
 while(line!=""):
     print(line)
-    line=f.readline()
+    line=c.readline()
+    
