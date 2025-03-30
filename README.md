@@ -16,8 +16,8 @@
 ## 📜 Topics Covered  
 ✅ Opening & Closing Files (`open()`, `close()`)  
 ✅ Reading Files (`read()`, `readline()`, `readlines()`)  
-✅ Writing & Appending Data (`write()`, `writelines()`)  
-✅ Working with **JSON Files**  
+✅ Writing & Appending Data (`write()`)  
+✅ Working with **JSON And TXT Files**  
 ✅ Using **Context Managers (`with open()`)** for safer I/O  
 
 ---
@@ -30,5 +30,4 @@ git clone https://github.com/YourUsername/Python-File-IO.git
 # Navigate to the project folder
 cd Python-File-IO
 
-# Run the Python scripts
-python filename.py
+
