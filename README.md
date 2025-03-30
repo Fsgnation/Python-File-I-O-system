@@ -21,6 +21,13 @@
 ✅ Using **Context Managers (`with open()`)** for safer I/O  
 
 ---
+📦 Python-File-IO
+ ┣ 📜 main.py      # All functions Explain Here
+ ┣ 📜 mod.py     # Modes of Opening File
+ ┣ 📜 with.py    #Context Managers (`with open()`)** for safer I/O 
+ ┗ 📜 README.md         # You are here! 😎
+
+---
 
 ## ⚡ Installation & Usage  
 ```bash
@@ -29,5 +36,6 @@ git clone https://github.com/YourUsername/Python-File-IO.git
 
 # Navigate to the project folder
 cd Python-File-IO
+
 
 
